@@ -56,12 +56,9 @@ npm run dev                     # abre http://localhost:3000
 ## 3. GitHub (guardar el código)
 
 1. En **github.com** → **New repository** → nombre `silaba` → **Private** → Create (sin README).
-2. En la carpeta del proyecto:
+2. El proyecto ya trae su historial de git. En la carpeta del proyecto solo conecta el repositorio y súbelo:
 
 ```bash
-git init            # si no existe ya
-git add -A
-git commit -m "Sílaba: primera versión"
 git branch -M main
 git remote add origin https://github.com/rodgutie/silaba.git
 git push -u origin main
